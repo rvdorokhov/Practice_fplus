@@ -1,0 +1,28 @@
+|NumberInd
+clk => sticks[0]~reg0.CLK
+clk => sticks[1]~reg0.CLK
+clk => sticks[2]~reg0.CLK
+clk => sticks[3]~reg0.CLK
+clk => sticks[4]~reg0.CLK
+clk => sticks[5]~reg0.CLK
+clk => sticks[6]~reg0.CLK
+clk => sticks[7]~reg0.CLK
+button => counter[0].CLK
+button => counter[1].CLK
+button => counter[2].CLK
+button => counter[3].CLK
+button => counter[4].CLK
+digits[0] <= <GND>
+digits[1] <= <GND>
+digits[2] <= <GND>
+digits[3] <= <GND>
+sticks[0] <= sticks[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[1] <= sticks[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[2] <= sticks[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[3] <= sticks[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[4] <= sticks[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[5] <= sticks[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[6] <= sticks[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sticks[7] <= sticks[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

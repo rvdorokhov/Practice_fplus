@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sticks[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sticks[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sticks[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sticks[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sticks[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sticks[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sticks[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "button",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
